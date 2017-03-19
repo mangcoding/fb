@@ -1,0 +1,178 @@
+* {
+	margin:0; padding: 0;
+}
+*, *:after, *:before {
+	box-sizing: border-box;
+}
+header {
+	background:#435F9C;
+}
+header:after, .content:after, .form-group:after, footer .menuFooter:after{
+	content:"";
+	display:block;
+	clear:both;
+}
+body {
+	font-family: Helvetica, Arial, sans-serif;
+	color:#333;
+}
+.display-block {
+	display: block;
+	width:100%;
+}
+.container {width:960px; margin:0 auto;}
+a {text-decoration: none; display: inline-block;}
+h3.logo{
+	padding:20px 0px;
+	color:#FFF;
+	font-size: 36px;
+}
+.leftContent {
+	width:58%;
+	padding:20px 55px 0px 0px;
+	float: left;
+}
+
+.prolog {
+	color:#0e385f;
+	font-size:20px;
+	line-height: 29px;
+	font-weight: bold;
+}
+.rightContent {
+	width:42%;
+	float: right;
+}
+.login-form {
+	padding:20px 0px 5px;
+}
+.login-form table {border-collapse: collapse;}
+.login-form table td{
+	color:#FFF;
+	font-size:12px;
+	padding:3px 5px;
+}
+.login-form a {
+	font-size:12px;
+	color :#9cb4d8;
+}
+.login-form button {
+	background-color: #4267b2;
+	border: 1px solid #29487d;
+	padding:2px 4px;
+	color:#FFF;
+	font-weight:bold;
+	margin-left:10px;
+	display: inline-block;
+	width: 55px;	
+}
+
+.login-form input {
+	border: 1px solid #29487d;
+	background: #FFF;
+	padding:2px 4px;
+}
+
+/* Content and Registration */
+
+.content {
+	background: -webkit-linear-gradient(top, #FFFFFF, #D3D8E8);
+	padding:20px 0px;
+}
+
+#registration-form h3{
+	font-size:36px;
+	margin-bottom: 15px;
+}
+
+#registration-form span {
+	font-size:19px;
+	line-height:125%;
+}
+#registration-form form {
+	margin-top: 20px;
+}
+.col-6 {width: 50%; float:left;}
+.col-6:not(:first-child) {
+	padding-left:3%;
+}
+.form-group+.form-group{
+	margin-top:15px;
+}
+
+.form-group>label[for]{
+	cursor:pointer;
+	display: inline-block;
+	margin:10px;
+}
+.form-group>label:not(:first-child)>input {
+	margin-left:15px;
+}
+.text-input {
+	width:100%;
+	border:solid 1px #bdc7d8;
+	border-radius:5px;
+	padding:8px 10px;
+	font-size:18px;
+}
+.select-input{
+	border:solid 1px #bdc7d8;
+	border-radius:0px;
+	padding:4px 10px;
+	font-size:14px;
+}
+#registration-form label {
+	margin:10px 0px;
+	font-size:18px;
+}
+.birthday {
+	float:left;
+	width:60%;
+}
+#registration-form .keterangan {
+	float:left;
+	width:40%;
+}
+.agreement a, .keterangan a {
+	color:#365899;
+}
+#registration-form .keterangan a {
+	margin-top:5px;
+	word-wrap: break-word;
+	font-size:11px;
+	cursor:pointer;
+	margin-left:5px;
+	line-height: 12px;
+}
+
+.agreement p {
+	font-size: 12px;
+}
+
+.btn {border-radius:5px; border:solid 1px; padding:10px 15px;}
+.btn-register {
+	background: -webkit-linear-gradient(top, #5CCC41, #5B8E47); 
+	border-color:#3b6e22 #3b6e22 #2c5115; color:#FFF; 
+	font-weight: bold; 
+	font-size:18px;
+}
+footer .container{
+	padding:20px 0px;
+}
+
+footer .container p, footer .container a {
+	font-size:12px;
+	color:#365899;
+}
+
+footer .menuFooter{
+	margin-top:20px;
+	border-top:solid 1px #dddfe2;
+	padding-top:20px;
+}
+
+footer .menuFooter ul {
+	list-style:none;
+	width:16.66%;
+	float:left;
+}
